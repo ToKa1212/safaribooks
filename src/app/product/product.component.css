@@ -1,0 +1,14 @@
+.product {
+  border: 1px solid black;
+  padding: 1px;
+  margin: 10px
+}
+
+h2 {
+  text-align: center;
+}
+
+.gCard{
+  margin-left: 10px;
+  font-family: "Iowan Old Style";
+}
