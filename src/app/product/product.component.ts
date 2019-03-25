@@ -8,7 +8,7 @@ import {ProductsService} from '../products.service';
 })
 export class ProductComponent implements OnInit {
   @Input() productName: string;
-  @Output() productClicked = new EventEmitter();
+  // @Output() productClicked = new EventEmitter();
 
   constructor(private productService: ProductsService) {
   }
