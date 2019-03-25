@@ -8,13 +8,15 @@ import {ProductsComponent} from './products.component';
 import { ProductComponent } from './product/product.component';
 import {ProductsService} from './products.service';
 import {HomeComponent} from './home.component';
+import { UserFormComponent } from './user-form/user-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
     ProductComponent,
-    HomeComponent
+    HomeComponent,
+    UserFormComponent
   ],
   imports: [
     BrowserModule,
